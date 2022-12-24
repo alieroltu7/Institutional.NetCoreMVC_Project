@@ -1,0 +1,12 @@
+D:\GirisimSitesi\Presentation\EntityLayer\bin\Debug\EntityLayer.dll.config
+D:\GirisimSitesi\Presentation\EntityLayer\bin\Debug\EntityLayer.dll
+D:\GirisimSitesi\Presentation\EntityLayer\bin\Debug\EntityLayer.pdb
+D:\GirisimSitesi\Presentation\EntityLayer\bin\Debug\EntityFramework.dll
+D:\GirisimSitesi\Presentation\EntityLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\GirisimSitesi\Presentation\EntityLayer\bin\Debug\EntityFramework.xml
+D:\GirisimSitesi\Presentation\EntityLayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\GirisimSitesi\Presentation\EntityLayer\obj\Debug\EntityLayer.csproj.AssemblyReference.cache
+D:\GirisimSitesi\Presentation\EntityLayer\obj\Debug\EntityLayer.csproj.CoreCompileInputs.cache
+D:\GirisimSitesi\Presentation\EntityLayer\obj\Debug\EntityLayer.csproj.CopyComplete
+D:\GirisimSitesi\Presentation\EntityLayer\obj\Debug\EntityLayer.dll
+D:\GirisimSitesi\Presentation\EntityLayer\obj\Debug\EntityLayer.pdb

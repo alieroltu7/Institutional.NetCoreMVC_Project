@@ -1,0 +1,43 @@
+﻿@model EntityLayer.Concrate.Heading
+@{
+    ViewBag.Title = "AddHeading";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>Yeni Başlık ekleme</h1>
+<br />
+@using (Html.BeginForm("AddHeading", "Heading", FormMethod.Post))
+{
+    <div class="form-group">
+        @Html.Label("Başlık adı")
+        @Html.TextBoxFor(x => x.HeadingName, new { @class = "form-control" })
+        @Html.ValidationMessageFor(x => x.HeadingName)
+        <br />
+        @Html.Label("Kategori")
+        @Html.DropDownListFor(x=>x.CategoryID,(List<SelectListItem>)ViewBag.vlc, new
+        {@class="form-control"})
+        <br />
+        @Html.Label("Yazar ")
+        @Html.DropDownListFor(x=>x.WriterID,(List<SelectListItem>)ViewBag.vlw,new {@class= "form-control"})
+        @Html.ValidationMessageFor(x => x.WriterID)
+        @*<br />
+        @Html.Label("Yazar Şifresi")
+        @Html.TextBoxFor(x => x.WriterPassword, new { @class = "form-control" })
+        @Html.ValidationMessageFor(x => x.WriterPassword)
+        <br />
+        @Html.Label("Yazar Görsel Linki")
+        @Html.TextBoxFor(x => x.WriterImage, new { @class = "form-control" })
+        @Html.ValidationMessageFor(x => x.WriterImage)
+        <br />
+        @Html.Label("Yazar Unvan")
+        @Html.TextBoxFor(x => x.WriterTitle, new { @class = "form-control" })
+        @Html.ValidationMessageFor(x => x.WriterTitle)
+        @Html.Label("Yazar Hakkında")
+        @Html.TextBoxFor(x => x.WriterAbout, new { @class = "form-control" })
+        @Html.ValidationMessageFor(x => x.WriterAbout)*@
+        <br />
+        <button class="btn btn-info">Başlığı Oluştur</button>
+    </div>
+}
+
+
